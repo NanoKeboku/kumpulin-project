@@ -30,9 +30,9 @@
                     Kumpul<span class="text-gray-900">.in</span>
                 </div>
                 <nav class="hidden md:flex space-x-8 text-sm font-medium">
-                    <a href="{{ route('home') }}" class="text-gray-600 hover:text-kumpul-main transition">Beranda</a>
-                    <a href="{{ route('jelajah') }}" class="text-kumpul-main font-bold border-b-2 border-kumpul-main">Jelajahi Ruang</a>
-                    <a href="#" class="text-gray-600 hover:text-kumpul-main transition">Daftarkan Ruang</a>
+                     <a href="{{ route('home') }}" class="text-gray-600 hover:text-kumpul-main transition">Beranda</a>
+                    <a href="{{ route('jelajah') }}" class="text-gray-600 hover:text-kumpul-main transition">Jelajahi Ruang</a>
+                    <a href="#" class="text-gray-600 hover:text-kumpul-main transition">Tentang Kami</a>
                     <a href="#" class="text-gray-600 hover:text-kumpul-main transition">Panduan</a>
                 </nav>
                 <div class="flex items-center">
