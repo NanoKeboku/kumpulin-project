@@ -18,6 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', [HomepageController::class, 'index'])->name('home');
+Route::get('/', [HomepageController::class, 'index'])->name('home');
 Route::get('/jelajah', [HomepageController::class, 'jelajah'])->name('jelajah');
 Route::get('/detil', [HomepageController::class, 'detail'])->name('detail');
