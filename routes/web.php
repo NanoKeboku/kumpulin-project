@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,4 @@ Route::get('/', function () {
 Route::get('/', [HomepageController::class, 'index'])->name('home');
 Route::get('/jelajah', [HomepageController::class, 'jelajah'])->name('jelajah');
 Route::get('/detil', [HomepageController::class, 'detail'])->name('detail');
+Route::get('/profile', [ProfileController::class, 'index']);

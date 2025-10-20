@@ -1,0 +1,12 @@
+.items button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.items button:hover {
+    border: 1px solid black;
+    border-radius: 25px;
+}
