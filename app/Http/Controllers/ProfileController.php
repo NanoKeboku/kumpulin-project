@@ -6,6 +6,11 @@ class ProfileController extends Controller
 {
     public function index()
     {
-        return view('profile');
+        return view('profiles.profileIndex');
+    }
+
+    public function reservasi()
+    {
+        return view('profiles.profileReservasi');
     }
 }

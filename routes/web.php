@@ -22,4 +22,8 @@ Route::get('/', function () {
 Route::get('/', [HomepageController::class, 'index'])->name('home');
 Route::get('/jelajah', [HomepageController::class, 'jelajah'])->name('jelajah');
 Route::get('/detil', [HomepageController::class, 'detail'])->name('detail');
-Route::get('/profile', [ProfileController::class, 'index']);
+
+Route::prefix('profile')->name('profile.')->group(function () {
+    Route::get('/', [ProfileController::class, 'index'])->name('index');
+    Route::get('/reservasi-saya', [ProfileController::class, 'reservasi'])->name('reservasi');
+});
